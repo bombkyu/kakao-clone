@@ -1,6 +1,6 @@
 .search-bar {
   padding: 10px 15px;
-  position: relative;
+  /* position: relative; */
 }
 
 .search-bar input {
@@ -18,8 +18,12 @@
 }
 
 .search-bar i {
-  top: 15px;
+  position: absolute;
+  top: 75px;
+  left: 40px;
+  color: #bbbbbb;
+  /* top: 15px;
   position: absolute;
   color: #bbbbbb;
-  left: 40px;
+  left: 40px; */
 }
